@@ -8,11 +8,12 @@
 			font-family: 'Nunito Semibold';
 			text-align: center;
 		}
-		#content{
-			display: grid;
-			/*grid-template-columns: 30% 20% 50%;*/
-			/*grid-template-columns: 1fr 2fr 1fr;*/
-			grid-template-columns: repeat(3, 1fr);
+		#content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: minmax(200px, auto);
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
 			max-width: 960px;
 			margin: 0 auto;
 		}
@@ -22,7 +23,7 @@
 		}
 		#content div:nth-child(even){
 			background: #777;
-			padding: 30px;
+			
 		}
 	</style>
 </head>
@@ -32,7 +33,7 @@
 
 		<div>1</div>
 		<div>2</div>
-		<div>3</div>
+		<div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et illum temporibus quaerat. Voluptates optio ab voluptate in magnam. Soluta vel delectus suscipit harum architecto! Molestiae itaque in et quae cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit amet dolor provident dicta exercitationem aliquid sunt laudantium maiores odit, ipsa eaque harum! Repudiandae pariatur sunt quod consequatur. Illum, atque aut.</div>
 		<div>4</div>
 		<div>5</div>
 		<div>6</div>
